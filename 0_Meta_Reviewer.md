@@ -26,7 +26,7 @@ AVE-Compass 包含来自 **85 个源视频的 190 条编辑指令**。33 个细�
 
 ### 6. 开源 judge 与可复核的评测产物
 
-为检验主要比较是否依赖单一闭源 judge，我们将主观评测模型替换为开源的 **Qwen3-Omni-30B-A3B-Instruct**，并在同一组 24 个有效样本上保持输入、checklist、评分维度和聚合方式不变。AVE-Agent 在 IF、Fidelity 和 Realism/AVQ 上均保持第一，三种方法的排序与 Gemini 3.1 Pro 一致。我们还将公开完整模型版本与推理配置、prompt 模板、生成后的 checklist、逐项判断缓存和聚合规则。固定中间产物保证已报告分数可精确追溯，开源 judge 的排序一致性则降低了重新运行对单一闭源模型的依赖。
+为检验主要比较是否依赖单一闭源 judge，我们将主观评测模型替换为开源的 **Qwen3-Omni-30B-A3B-Instruct**，并在完整评测集上保持输入、checklist、评分维度和聚合方式不变。AVE-Agent 在 IF、Fidelity 和 Realism/AVQ 上均保持第一，三种方法的排序与 Gemini 3.1 Pro 一致。我们还将公开完整模型版本与推理配置、prompt 模板、生成后的 checklist、逐项判断缓存和聚合规则。固定中间产物保证已报告分数可精确追溯，开源 judge 的排序一致性则降低了重新运行对单一闭源模型的依赖。
 
 ### 7. 跨模态失败来源与 Figure 4 的操作性解释
 
