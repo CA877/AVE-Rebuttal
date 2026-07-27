@@ -1,0 +1,14 @@
+# Ignore everything by default.
+*
+
+# Keep this ignore file and the three rebuttal directories.
+!.gitignore
+!1_修改版/
+!1_修改版/**
+!3_修改版/
+!3_修改版/**
+!5_修改版/
+!5_修改版/**
+
+# Exclude macOS metadata even inside included directories.
+**/.DS_Store
